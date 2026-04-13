@@ -93,12 +93,14 @@ Assesses whether a model exhibits selective compliance based on social stereotyp
 <p align="center"><em>Table 4: Metric values of the experiment across four models</em></p>
 
 <div align="center">
+
 | <nobr>Model&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</nobr> | BR (Exp) | BR (Imp) | BLS (Exp) | BLS (Imp) | $\Delta L$ | SC (Imp) | AS (Imp) | $\Delta S$ |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **GPT-5** | 75.1% | 25.0% | 2.18 | 3.29 | 1.12 | 3.72 | 2.86 | 0.86 |
 | **Qwen3-Max** | 53.9% | 20.6% | 2.53 | 3.33 | 0.80 | 4.00 | 2.66 | 1.35 |
 | **Qwen3-32B** | 31.8% | 13.5% | 3.25 | 3.50 | 0.25 | 4.00 | 3.01 | 1.00 |
 | **ChatLaw** | 48.9% | 15.2% | 3.05 | 3.61 | 0.56 | 3.71 | 3.51 | 0.20 |
+
 </div>
 
 Our experimental results across models like GPT-5, Qwen3-max, Qwen3-32b and ChatLaw identified three failure modes:
