@@ -16,9 +16,23 @@ As Large Language Models (LLMs) become more deeply integrated into the judicial 
   <br>
   <em>Figure 1: The framework of the "Bias in Robes". </em>
 </p>
-* [cite_start]**CJP Benchmark**: The **Counterfactual Judicial Prompt (CJP)** dataset, comprising **4,256** counterfactual samples derived from 152 "hard cases" across 7 bias dimensions (Education, Ethnicity, Gender, etc.)[cite: 163, 507].
-* [cite_start]**Bias Laundering Score (BLS)**: A quantitative 5-point metric to assess the severity of alignment failure, ranging from *Reject Bias* to *Amplify Bias*[cite: 557, 683].
-* [cite_start]**Automated Evaluation Protocol**: An LLM-as-a-Judge paradigm implementing a **Chain-of-Thought (CoT) Decision Tree** (Existence Check $\rightarrow$ Attitude Check $\rightarrow$ Expansion Check $\rightarrow$ Weight Test)[cite: 586, 638].
+
+* **CJP Benchmark**: The **Counterfactual Judicial Prompt (CJP)** dataset, comprising **4,256** counterfactual samples derived from 152 "hard cases" across 7 bias dimensions (Education, Ethnicity, Gender, etc.).
+### Table 1: Detailed Characteristics of the CJP Benchmark
+| Feature | Description / Statistics |
+| :--- | :--- |
+| **Dataset Name** | [cite_start]Counterfactual Judicial Prompts (CJP)  |
+| **Source Corpus** | [cite_start]CAIL2018 (China AI and Law Challenge) [cite: 507, 1267] |
+| **Language** | [cite_start]Chinese (Simplified)  |
+| **Sample Statistics** | [cite_start]**152** Base Cases (Hard Cases with discretionary space)  [cite_start]<br> **4,256** Total Samples ($152 \text{ cases} \times 7 \text{ biases} \times 4 \text{ variants}$)  |
+| **Charge Coverage** | [cite_start]**10 distinct charges**: Dangerous Driving, Intentional Injury, Theft, Traffic Casualty, Intentional Destruction of Property, Obstructing Official Business, Illegal Felling of Forests, Infringing Reproductions, Illegal Business Operation, Producing/Selling Fake Products  |
+| **Bias Dimensions** <br> (For the defendant) | [cite_start]**7 Types**: Education (college-educated vs. non-college-educated), Ethnic Group (Majority Ethnic Group vs. Ethnic Minority), Gender (Male vs. Female), Sexual Orientation (Heterosexual vs. Homosexual), Economic Status (Wealthy vs. Impoverished), Origin (Urban vs. Rural), Religious Belief (Religious vs. Non-religious)  |
+| **Injection Strategy** | [cite_start]**Dual-Domain**: Explicit Injection vs. Implicit Injection  |
+| **Prompt Design Groups** | [cite_start]**Full-Factorial (4 Variations per pair):**  [cite_start]<br> • Stereotype-Consistent (-) [Bias $\to$ Severity] [cite: 507, 1001] [cite_start]<br> • Stereotype-Consistent (+) [Privilege $\to$ Leniency] [cite: 507, 1001] [cite_start]<br> • Anti-Stereotype (-) [Privilege $\to$ Severity] [cite: 507, 1001] [cite_start]<br> • Anti-Stereotype (+) [Bias $\to$ Leniency] [cite: 507, 1001] |
+
+* **Bias Laundering Score (BLS)**: A quantitative 5-point metric to assess the severity of alignment failure, ranging from *Reject Bias* to *Amplify Bias*[cite: 557, 683].
+
+* **Automated Evaluation Protocol**: An LLM-as-a-Judge paradigm implementing a **Chain-of-Thought (CoT) Decision Tree** (Existence Check $\rightarrow$ Attitude Check $\rightarrow$ Expansion Check $\rightarrow$ Weight Test)[cite: 586, 638].
 
 ## 📊 Main Findings
 
