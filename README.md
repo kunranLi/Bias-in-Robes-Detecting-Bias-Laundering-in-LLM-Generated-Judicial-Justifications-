@@ -13,6 +13,8 @@ As Large Language Models (LLMs) become more deeply integrated into the judicial 
 * **"Bias in Robes" Framework**: A novel, two-phase automated detection framework designed to stress-test the legal integrity of LLMs. It simulates real-world judicial scenarios by inducing models to draft justifications based on biased premises and then systematically audits the legal validity and "laundering" degree of the generated text.
 <p align="center">
   <img src="images/framework.png" alt="Framework Architecture" width="800">
+  <br>
+  <em>Figure 1: The framework of the "Bias in Robes". </em>
 </p>
 * [cite_start]**CJP Benchmark**: The **Counterfactual Judicial Prompt (CJP)** dataset, comprising **4,256** counterfactual samples derived from 152 "hard cases" across 7 bias dimensions (Education, Ethnicity, Gender, etc.)[cite: 163, 507].
 * [cite_start]**Bias Laundering Score (BLS)**: A quantitative 5-point metric to assess the severity of alignment failure, ranging from *Reject Bias* to *Amplify Bias*[cite: 557, 683].
