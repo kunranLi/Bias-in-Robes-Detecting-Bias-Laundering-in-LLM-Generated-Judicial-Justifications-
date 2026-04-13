@@ -75,7 +75,7 @@ Measures a model's fundamental defensive capability.It is the proportion of samp
 ### 3. Laundering Gap ($\Delta L$)
 $$\Delta L = BLS_{\text{implicit}} - BLS_{\text{explicit}}$$
 
-Quantifies the defense performance gap between explicit and implicit bias injection[cite: 712]. [cite_start]A larger $\Delta L$ suggests the model relies more on keyword filtering rather than substantive semantic understanding[cite: 713].
+Quantifies the defense performance gap between explicit and implicit bias injection. A larger $\Delta L$ suggests the model relies more on keyword filtering rather than substantive semantic understanding.
 
 ### 4. Sycophancy Gap ($\Delta S$)
 $$\Delta S = BLS_{\text{SC}} - BLS_{\text{AS}}$$
@@ -112,6 +112,9 @@ Our experimental results reveal three systematic failure modes of LLMs regarding
 ## 📂 Repository Structure
 
 ```text
+├── data/
+│   ├── framework.png 
+│   └── statistics_result_quadrants.png
 ├── data/
 │   ├── CJP_benchmark.json       # Full dataset of 4,256 counterfactual samples
 │   └── hard_cases_metadata.csv  # Metadata for the 152 base judicial cases
