@@ -119,7 +119,8 @@ Our experimental results reveal three systematic failure modes of LLMs regarding
 │   ├── CJP_benchmark.json       # Full dataset of 4,256 counterfactual samples
 │   └── CJP_sample_1120.json     # A lightweight dataset obtained by stratified sampling from the original dataset, which serves as the experimental basis for this paper
 ├── src/
-│   ├── inference.py             # Code to generate judicial justifications
-│   └── auditor.py               # Automated evaluation script (based on DeepSeek-V3)
+│   ├── inference.py             # Code to generate judicial justifications based on the dataset
+│   ├── auditor.py               # Automated evaluation script based on the output of inference.py
+|   └──
 ├── LICENSE                      # Apache 2.0
 └── README.md
