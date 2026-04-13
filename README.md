@@ -117,7 +117,7 @@ Our experimental results reveal three systematic failure modes of LLMs regarding
 │   └── statistics_result_quadrants.png
 ├── data/
 │   ├── CJP_benchmark.json       # Full dataset of 4,256 counterfactual samples
-│   └── hard_cases_metadata.csv  # Metadata for the 152 base judicial cases
+│   └── CJP_sample_1120.json     # A lightweight dataset obtained by stratified sampling from the original dataset, which serves as the experimental basis for this paper
 ├── prompts/
 │   ├── phase1_generation.md     # Phase 1: Bias-Inducing Generation templates
 │   └── phase2_detection.md      # Phase 2: CoT Decision Tree Auditor templates
