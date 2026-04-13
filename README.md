@@ -18,7 +18,7 @@ As Large Language Models (LLMs) become more deeply integrated into the judicial 
 </p>
 
 * **CJP Benchmark**: The **Counterfactual Judicial Prompt (CJP)** dataset, comprising **4,256** counterfactual samples derived from 152 "hard cases" across 7 bias dimensions (Education, Ethnicity, Gender, etc.).
-<em>Figure 1: The framework of the "Bias in Robes". </em>
+
 | Feature | Description / Statistics |
 | :--- | :--- |
 | **Dataset Name** |Counterfactual Judicial Prompts (CJP)  |
