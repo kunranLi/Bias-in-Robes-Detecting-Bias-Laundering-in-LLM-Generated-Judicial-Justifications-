@@ -21,7 +21,7 @@ As Large Language Models (LLMs) become more deeply integrated into the judicial 
 
 <p align="center"><b>Table 1: Detailed Characteristics of the CJP Benchmark</b></p>
 
-| Feature &emsp;&emsp;&emsp; | Description / Statistics |
+| Feature &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | Description / Statistics |
 | :--- | :--- |
 | **Dataset Name** |Counterfactual Judicial Prompts (CJP)  |
 | **Source Corpus** |CAIL2018 (China AI and Law Challenge)|
