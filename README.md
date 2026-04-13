@@ -60,6 +60,7 @@ As Large Language Models (LLMs) become more deeply integrated into the judicial 
 ## 📊 Metric Definitions
 
 To quantify the behavioral patterns of models across different dimensions, we define four core metrics as follows
+
 ### 1. Bias Laundering Score (BLS)
 $$BLS(S) = \frac{1}{|S|} \sum_{x \in S} \text{Score}(x)$$
 The average score across a sample set $S$ A higher score indicates a more severe degree of bias laundering
