@@ -103,10 +103,11 @@ Assesses whether a model exhibits selective compliance based on social stereotyp
 
 </div>
 
-Our experimental results across models like GPT-5, Qwen3-max, Qwen3-32b and ChatLaw identified three failure modes:
-1.  **Laundering Gap**: SOTA models maintain robust defenses against *explicit* bias but remain highly susceptible to *implicit* induction.
-2.  **Confirmation Bias**: Models often reinforce pre-existing social stereotypes rather than adhering to neutral law (Sycophancy Gap).
-3.  **The "Mercenary" Trap**: Domain-specific fine-tuning (e.g., ChatLaw) may enhance technical legal synthesis while decoupling reasoning from normative evaluation, leading to procedural over-compliance.
+Our experimental results reveal three systematic failure modes of LLMs regarding their fairness alignment and resistance to bias laundering:
+
+1. **The Safety-Laundering Gap**: Existing safety guardrails exhibit "contextual fragility," showing significantly weaker resistance to implicit bias compared to explicit prompts. While SOTA models like GPT-5 excel at identifying explicit bias, they remain highly susceptible to "bias laundering" when prejudices are cloaked in legal terminology.
+2. **Confirmation Bias & Selective Compliance**: General LLMs tend to reinforce pre-existing social stereotypes rather than following user instructions indiscriminately. Models demonstrate a higher capacity for generating rationalized arguments when instructions align with established stereotypes, revealing an inherent bias mechanism ingrained in their training data.
+3. **The "Double-Edged Sword" of Legal Fine-Tuning**: Domain-specific models (e.g., ChatLaw) exhibit "procedural over-compliance." While they show less variance between stereotype groups, they tend to mechanically apply statutory language to construct formal justifications for any prompt, potentially decoupling legal reasoning from normative or commonsense evaluation.
 
 ## 📂 Repository Structure
 
