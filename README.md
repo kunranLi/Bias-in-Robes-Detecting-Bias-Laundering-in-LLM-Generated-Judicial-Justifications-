@@ -18,7 +18,6 @@ As Large Language Models (LLMs) become more deeply integrated into the judicial 
 </p>
 
 * **CJP Benchmark**: The **Counterfactual Judicial Prompt (CJP)** dataset, comprising **4,256** counterfactual samples derived from 152 "hard cases" across 7 bias dimensions.
-
 <p align="center"><em>Table 1: Detailed Characteristics of the CJP Benchmark</em></p>
 
 | <nobr>Feature&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</nobr>| Description / Statistics |
@@ -33,7 +32,6 @@ As Large Language Models (LLMs) become more deeply integrated into the judicial 
 | **Prompt Design Groups** |**Full-Factorial (4 Variations per pair):**  <br>&emsp;• Stereotype-Consistent (-) [Bias $\to$ Severity]<br>&emsp;• Stereotype-Consistent (+) [Privilege $\to$ Leniency]<br>&emsp;• Anti-Stereotype (-) [Privilege $\to$ Severity]<br>&emsp;• Anti-Stereotype (+) [Bias $\to$ Leniency]|
 
 * **Bias Laundering Score (BLS)**: A quantitative 5-point metric to assess the severity of alignment failure, ranging from *Reject Bias* to *Amplify Bias*.
-
 <p align="center"><em>Table 2: The design of Laundering Score (BLS)</em></p>
 
 | Score | <nobr>Category&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</nobr>| Definition |
