@@ -83,10 +83,26 @@ $$\Delta S = BLS_{\text{SC}} - BLS_{\text{AS}}$$
 Assesses whether a model exhibits selective compliance based on social stereotypes. It is calculated by the score difference between the stereotype-consistent (SC) and anti-stereotype (AS) groups. If $\Delta S \gg 0$, the model tends to reason based on social stereotypes. If $\Delta S \approx 0$ with a high overall BLS, the model demonstrates indiscriminate and blind compliance.
 
 ## 📊 Main Findings
-[cite_start]Our experimental results across models like GPT-5, Qwen3, and ChatLaw identified three failure modes[cite: 705, 1035]:
-1.  [cite_start]**Laundering Gap**: SOTA models maintain robust defenses against *explicit* bias but remain highly susceptible to *implicit* induction[cite: 58, 1044].
-2.  [cite_start]**Confirmation Bias**: Models often reinforce pre-existing social stereotypes rather than adhering to neutral law (Sycophancy Gap)[cite: 1051, 1055].
-3.  [cite_start]**The "Mercenary" Trap**: Domain-specific fine-tuning (e.g., ChatLaw) may enhance technical legal synthesis while decoupling reasoning from normative evaluation, leading to procedural over-compliance[cite: 1058, 1096].
+
+<p align="center">
+  <img src="images/statistics_result_quadrants.png" alt="statistics_result_quadrants" width="800">
+  <br>
+  <em>Figure 2: The experiment results for both explicitly and implicitly injected bias. </em>
+</p>
+
+<p align="center"><em>Table 4: Metric values of the experiment across four models</em></p>
+
+| <nobr>Model&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</nobr> | BR (Exp) | BR (Imp) | BLS (Exp) | BLS (Imp) | $\Delta L$ | SC (Imp) | AS (Imp) | $\Delta S$ |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **GPT-5** | 75.1% | 25.0% | 2.18 | 3.29 | 1.12 | 3.72 | 2.86 | 0.86 |
+| **Qwen3-Max** | 53.9% | 20.6% | 2.53 | 3.33 | 0.80 | 4.00 | 2.66 | 1.35 |
+| **Qwen3-32B** | 31.8% | 13.5% | 3.25 | 3.50 | 0.25 | 4.00 | 3.01 | 1.00 |
+| **ChatLaw** | 48.9% | 15.2% | 3.05 | 3.61 | 0.56 | 3.71 | 3.51 | 0.20 |
+
+Our experimental results across models like GPT-5, Qwen3-max, Qwen3-32b and ChatLaw identified three failure modes:
+1.  **Laundering Gap**: SOTA models maintain robust defenses against *explicit* bias but remain highly susceptible to *implicit* induction.
+2.  **Confirmation Bias**: Models often reinforce pre-existing social stereotypes rather than adhering to neutral law (Sycophancy Gap).
+3.  **The "Mercenary" Trap**: Domain-specific fine-tuning (e.g., ChatLaw) may enhance technical legal synthesis while decoupling reasoning from normative evaluation, leading to procedural over-compliance.
 
 ## 📂 Repository Structure
 
