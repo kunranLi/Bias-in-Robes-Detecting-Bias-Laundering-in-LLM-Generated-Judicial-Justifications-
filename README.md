@@ -18,17 +18,17 @@ As Large Language Models (LLMs) become more deeply integrated into the judicial 
 </p>
 
 * **CJP Benchmark**: The **Counterfactual Judicial Prompt (CJP)** dataset, comprising **4,256** counterfactual samples derived from 152 "hard cases" across 7 bias dimensions (Education, Ethnicity, Gender, etc.).
-### Table 1: Detailed Characteristics of the CJP Benchmark
+<em>Figure 1: The framework of the "Bias in Robes". </em>
 | Feature | Description / Statistics |
 | :--- | :--- |
-| **Dataset Name** | [cite_start]Counterfactual Judicial Prompts (CJP)  |
-| **Source Corpus** | [cite_start]CAIL2018 (China AI and Law Challenge) [cite: 507, 1267] |
-| **Language** | [cite_start]Chinese (Simplified)  |
-| **Sample Statistics** | [cite_start]**152** Base Cases (Hard Cases with discretionary space)  [cite_start]<br> **4,256** Total Samples ($152 \text{ cases} \times 7 \text{ biases} \times 4 \text{ variants}$)  |
-| **Charge Coverage** | [cite_start]**10 distinct charges**: Dangerous Driving, Intentional Injury, Theft, Traffic Casualty, Intentional Destruction of Property, Obstructing Official Business, Illegal Felling of Forests, Infringing Reproductions, Illegal Business Operation, Producing/Selling Fake Products  |
-| **Bias Dimensions** <br> (For the defendant) | [cite_start]**7 Types**: Education (college-educated vs. non-college-educated), Ethnic Group (Majority Ethnic Group vs. Ethnic Minority), Gender (Male vs. Female), Sexual Orientation (Heterosexual vs. Homosexual), Economic Status (Wealthy vs. Impoverished), Origin (Urban vs. Rural), Religious Belief (Religious vs. Non-religious)  |
-| **Injection Strategy** | [cite_start]**Dual-Domain**: Explicit Injection vs. Implicit Injection  |
-| **Prompt Design Groups** | [cite_start]**Full-Factorial (4 Variations per pair):**  [cite_start]<br> • Stereotype-Consistent (-) [Bias $\to$ Severity] [cite: 507, 1001] [cite_start]<br> • Stereotype-Consistent (+) [Privilege $\to$ Leniency] [cite: 507, 1001] [cite_start]<br> • Anti-Stereotype (-) [Privilege $\to$ Severity] [cite: 507, 1001] [cite_start]<br> • Anti-Stereotype (+) [Bias $\to$ Leniency] [cite: 507, 1001] |
+| **Dataset Name** |Counterfactual Judicial Prompts (CJP)  |
+| **Source Corpus** |CAIL2018 (China AI and Law Challenge)|
+| **Language** |Chinese (Simplified)  |
+| **Sample Statistics** | **152** Base Cases (Hard Cases with discretionary space)<br> **4,256** Total Samples ($152 \text{ cases} \times 7 \text{ biases} \times 4 \text{ variants}$)  |
+| **Charge Coverage** |**10 distinct charges**: Dangerous Driving, Intentional Injury, Theft, Traffic Casualty, Intentional Destruction of Property, Obstructing Official Business, Illegal Felling of Forests, Infringing Reproductions, Illegal Business Operation, Producing/Selling Fake Products  |
+| **Bias Dimensions** <br> (For the defendant) |**7 Types**: Education (college-educated vs. non-college-educated), Ethnic Group (Majority Ethnic Group vs. Ethnic Minority), Gender (Male vs. Female), Sexual Orientation (Heterosexual vs. Homosexual), Economic Status (Wealthy vs. Impoverished), Origin (Urban vs. Rural), Religious Belief (Religious vs. Non-religious)  |
+| **Injection Strategy** |**Dual-Domain**: Explicit Injection vs. Implicit Injection  |
+| **Prompt Design Groups** |**Full-Factorial (4 Variations per pair):**  [cite_start]<br> • Stereotype-Consistent (-) [Bias $\to$ Severity]<br> • Stereotype-Consistent (+) [Privilege $\to$ Leniency]<br> • Anti-Stereotype (-) [Privilege $\to$ Severity]<br> • Anti-Stereotype (+) [Bias $\to$ Leniency]|
 
 * **Bias Laundering Score (BLS)**: A quantitative 5-point metric to assess the severity of alignment failure, ranging from *Reject Bias* to *Amplify Bias*[cite: 557, 683].
 
