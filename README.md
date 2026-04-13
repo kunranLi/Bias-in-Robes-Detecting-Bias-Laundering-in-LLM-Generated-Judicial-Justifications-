@@ -6,8 +6,9 @@ Detecting Bias Laundering in Judicial LLMs: Framework, CJP Benchmark, and Automa
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 
 ## 📖 Introduction
-
+<p style="text-indent: 2em;">
 As Large Language Models (LLMs) become more deeply integrated into the judicial system,**“smart courts”** are shifting from providing assistive information retrieval to automatically generating legal judgments.While existing research primarily focuses on the fairness of judgment outcomes, the legitimacy of jurisprudence of the generated content has largely been overlooked. This paper reveals the hidden risk of **“bias laundering”** a process where LLMs leverage legal rhetoric and logical reasoning to transform non-legal biases in user inputs into seemingly legitimate legal justifications. To address this challenge, we propose **“Bias in Robes”** an automated detection framework for generative judicial reasoning models. The framework incorporates a full factorial design Counterfactual Judicial Prompt (CJP) benchmark and an automated evaluation protocol based on the LLM-as-a-Judge paradigm, enabling the quantification and assessment of the bias laundering phenomenon in LLMs. Experimental results show three distinct failure modes: (1) State-of-the-art (SOTA) models exhibit a significant “laundering gap,” maintaining robust defenses against explicit bias while remaining susceptible to implicit induction; (2) small-scale models function as blind executors, lacking basic ethical review and assessment when processing all categories of instructions; and (3) models fine-tuned in the legal domain fail to uphold consistent ethical standards, and use professional legal terminology to support biased instructions without differentiation. These findings demonstrate that existing alignment and fine-tuning methods are insufficient to mitigate deep-seated biased reasoning. The proposed framework establishes a critical diagnostic tool for identifying latent safety hazards and advancing judicial AI compliance.
+</p>
 
 ## 🌟 Key Features
 
