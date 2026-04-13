@@ -7,9 +7,9 @@ Detecting Bias Laundering in Judicial LLMs: Framework, CJP Benchmark, and Automa
 
 ## 📖 Introduction
 
-[cite_start]As Large Language Models (LLMs) become deeply integrated into judicial systems, they are shifting from assistive information retrieval to automatically generating legal judgments[cite: 53]. [cite_start]This research reveals a hidden risk termed **"Bias Laundering"**—a process where LLMs leverage legal rhetoric and logical reasoning to transform non-legal biases into seemingly legitimate legal justifications[cite: 55, 87].
+As Large Language Models (LLMs) become deeply integrated into judicial systems, they are shifting from assistive information retrieval to automatically generating legal judgments. This research reveals a hidden risk termed **"Bias Laundering"**—a process where LLMs leverage legal rhetoric and logical reasoning to transform non-legal biases into seemingly legitimate legal justifications.
 
-[cite_start]We propose the **"Bias in Robes"** framework, an automated detection tool designed to stress-test the legal integrity of generative judicial reasoning models[cite: 56, 93].
+We propose the **"Bias in Robes"** framework, an automated detection tool designed to stress-test the legal integrity of generative judicial reasoning models.
 
 ## 🌟 Key Features
 
