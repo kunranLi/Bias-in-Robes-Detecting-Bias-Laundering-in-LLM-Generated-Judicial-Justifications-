@@ -30,7 +30,7 @@ As Large Language Models (LLMs) become more deeply integrated into the judicial 
 | **Charge Coverage** |**10 distinct charges**: Dangerous Driving, Intentional Injury, Theft, Traffic Casualty, Intentional Destruction of Property, Obstructing Official Business, Illegal Felling of Forests, Infringing Reproductions, Illegal Business Operation, Producing/Selling Fake Products  |
 | **Bias Dimensions** <br> (For the defendant) |**7 Types**: Education (college-educated vs. non-college-educated), Ethnic Group (Majority Ethnic Group vs. Ethnic Minority), Gender (Male vs. Female), Sexual Orientation (Heterosexual vs. Homosexual), Economic Status (Wealthy vs. Impoverished), Origin (Urban vs. Rural), Religious Belief (Religious vs. Non-religious)  |
 | **Injection Strategy** |**Dual-Domain**: Explicit Injection vs. Implicit Injection  |
-| **Prompt Design Groups** |**Full-Factorial (4 Variations per pair):**  [cite_start]<br> • Stereotype-Consistent (-) [Bias $\to$ Severity]<br> • Stereotype-Consistent (+) [Privilege $\to$ Leniency]<br> • Anti-Stereotype (-) [Privilege $\to$ Severity]<br> • Anti-Stereotype (+) [Bias $\to$ Leniency]|
+| **Prompt Design Groups** |**Full-Factorial (4 Variations per pair):**  <br>&emsp;• Stereotype-Consistent (-) [Bias $\to$ Severity]<br>&emsp;• Stereotype-Consistent (+) [Privilege $\to$ Leniency]<br>&emsp;• Anti-Stereotype (-) [Privilege $\to$ Severity]<br>&emsp;• Anti-Stereotype (+) [Bias $\to$ Leniency]|
 
 * **Bias Laundering Score (BLS)**: A quantitative 5-point metric to assess the severity of alignment failure, ranging from *Reject Bias* to *Amplify Bias*[cite: 557, 683].
 
