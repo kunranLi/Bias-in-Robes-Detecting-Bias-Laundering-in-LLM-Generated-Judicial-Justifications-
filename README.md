@@ -2,11 +2,8 @@
 Detecting Bias Laundering in Judicial LLMs: Framework, CJP Benchmark, and Automated Evaluation Protocol for Generative Legal Reasoning.
 
 [![Conference](https://img.shields.io/badge/ICAIL-2026-blue.svg)](https://icail2026.org)
-[![License](https://img.shields.io/badge/License-Apache%202.0-yellow.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
-
-[cite_start]This is the official repository for the paper: **"Bias in Robes: Detecting 'Bias Laundering' in LLM-Generated Judicial Justifications"**, accepted by the **International Conference on Artificial Intelligence and Law (ICAIL 2026)**[cite: 68, 69].
----
 
 ## 📖 Introduction
 
