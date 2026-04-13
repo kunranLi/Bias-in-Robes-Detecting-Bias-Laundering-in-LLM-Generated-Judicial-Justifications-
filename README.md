@@ -123,5 +123,10 @@ Our experimental results reveal three systematic failure modes of LLMs regarding
 │   ├── auditor.py               # Automated evaluation script based on the output of inference.py
 |   ├── statistics.py            # Calculate statistical results based on the output of auditor.py and evaluation metrics
 |   └── meta-evaluation.py       # Assess LLM-as-a-Judge effectiveness based on  the output of auditor.py and human expert ratings
+├── Experimental results of this paper/
+│   ├── the output of inference.py/             
+│   ├── the output of auditor.py/              
+|   ├── statistics_result.json           
+|   └── sample_for_human.csv      
 ├── LICENSE                      
 └── README.md
