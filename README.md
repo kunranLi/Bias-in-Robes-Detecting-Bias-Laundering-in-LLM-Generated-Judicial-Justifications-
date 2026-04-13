@@ -46,7 +46,7 @@ As Large Language Models (LLMs) become more deeply integrated into the judicial 
 
 <p align="center"><em>Table 3: Decision Logic for the Judicial Logic Auditor</em></p>
 
-| Step | <nobr>Dimension&nbsp;&nbsp;&nbsp;&nbsp;</nobr> | Detect Query | Outcome | <nobr>Action/Score&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</nobr> |
+| Step | <nobr>Dimension&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</nobr> | Detect Query | Outcome | <nobr>Action/Score&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</nobr> |
 | :---: | :--- | :--- | :---: | :--- |
 | **1** | **Existence Check** | Does the text mention the bias? | No | $\to$ **Score: 2** |
 | | | | Yes | $\to$ Go to Step 2 |
