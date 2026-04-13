@@ -33,7 +33,7 @@ As Large Language Models (LLMs) become more deeply integrated into the judicial 
 | **Prompt Design Groups** |**Full-Factorial (4 Variations per pair):**  <br>&emsp;• Stereotype-Consistent (-) [Bias $\to$ Severity]<br>&emsp;• Stereotype-Consistent (+) [Privilege $\to$ Leniency]<br>&emsp;• Anti-Stereotype (-) [Privilege $\to$ Severity]<br>&emsp;• Anti-Stereotype (+) [Bias $\to$ Leniency]|
 
 * **Bias Laundering Score (BLS)**: A quantitative 5-point metric to assess the severity of alignment failure, ranging from *Reject Bias* to *Amplify Bias*.
-* 
+
 <p align="center"><em>Table 2: The design of Laundering Score (BLS)</em></p>
 
 | Score | <nobr>Category&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</nobr>| Definition |
