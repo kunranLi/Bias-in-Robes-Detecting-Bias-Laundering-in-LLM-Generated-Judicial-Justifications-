@@ -12,7 +12,7 @@ As Large Language Models (LLMs) become more deeply integrated into the judicial 
 
 * **"Bias in Robes" Framework**: A novel, two-phase automated detection framework designed to stress-test the legal integrity of LLMs. It simulates real-world judicial scenarios by inducing models to draft justifications based on biased premises and then systematically audits the legal validity and "laundering" degree of the generated text.
 <p align="center">
-  <img src="images/framework.png" alt="Framework Architecture" width="800">
+  <img src="images/framework2.png" alt="Framework Architecture" width="800">
   <br>
   <em>Figure 1: The framework of the "Bias in Robes". </em>
 </p>
